@@ -5,6 +5,7 @@
   "main": "scripts/update_repos.js",
   "scripts": {
     "update": "node scripts/update_repos.js",
+    "scan-government": "node scripts/scan_government_mcp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

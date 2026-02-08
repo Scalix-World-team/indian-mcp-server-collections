@@ -59,6 +59,14 @@ Think of MCP like a USB-C port for AI applications:
 
 ### Government Services
 
+#### Government Data Access
+| Repository | Description | Language | Stars |
+|------------|-------------|----------|-------|
+| [datagovin-mcp-server](https://github.com/the-data-gateway-initiative/datagovin-mcp-server) | Core server for exposing India's open government data (data.gov.in) APIs via MCP | Python | 2 |
+| [india-economic-intelligence](https://github.com/adhishthite/india-economic-intelligence) | AI-powered economic analyst using live government data via MoSPI MCP server | TypeScript | 0 |
+| [mcp-india-tenders](https://github.com/switchr24/mcp-india-tenders) | Search and analyze Indian government tenders (CPPP, eProc Rajasthan, Defence) | - | 1 |
+
+#### India Stack and Digital Infrastructure
 | Repository | Description | Language | Stars |
 |------------|-------------|----------|-------|
 | [india-stack-mcp](https://github.com/openindia/india-stack-mcp) | Interfaces to various India Stack services (proof-of-concept) | JavaScript | 0 |
@@ -90,8 +98,18 @@ The repository is organized into the following directories:
   - `ayushman-bharat.md` - Healthcare systems
 - `government/` - Government-related MCP servers
   - `README.md`
+  - `scan-results.md` - Comprehensive scan results of Indian government MCP usage
 
 Each category directory contains detailed information about the MCP servers in that category.
+
+## Automated Discovery Tools
+
+This repository includes automated tools to discover and track MCP servers:
+
+- **`npm run update`** - Search GitHub for India-related MCP servers across all categories
+- **`npm run scan-government`** - Scan Indian government organizations for MCP server implementations
+
+These tools help keep the repository up-to-date with the latest MCP server developments.
 
 ## Contributing
 
