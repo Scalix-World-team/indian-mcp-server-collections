@@ -8,11 +8,31 @@ India has built world-class digital public infrastructure (DPI) including Aadhaa
 
 ## MCP Servers for Government Services
 
-There is significant potential for MCP servers that integrate with India's government services, though many are still in development or conceptual stages:
+### Government Data Access Servers
 
-### Existing Initiatives
+These MCP servers provide AI-accessible interfaces to official Indian government data sources:
 
-1. **[india-stack-mcp](https://github.com/openindia/india-stack-mcp)** - A proof-of-concept MCP server that provides interfaces to various India Stack services.
+| Repository | Description | Language | Stars | Data Source |
+|------------|-------------|----------|-------|-------------|
+| [datagovin-mcp-server](https://github.com/the-data-gateway-initiative/datagovin-mcp-server) | Core server for exposing India's open government data (data.gov.in) APIs via MCP | Python | 2 | data.gov.in |
+| [india-economic-intelligence](https://github.com/adhishthite/india-economic-intelligence) | AI-powered economic analyst for India using live government data via MoSPI MCP server | TypeScript | 0 | MoSPI |
+| [mcp-india-tenders](https://github.com/switchr24/mcp-india-tenders) | MCP server for searching and analyzing Indian government tenders (CPPP, eProc Rajasthan, Defence) | - | 1 | Government Procurement Portals |
+
+### India Stack and Digital Infrastructure
+
+| Repository | Description | Language | Stars |
+|------------|-------------|----------|-------|
+| [india-stack-mcp](https://github.com/openindia/india-stack-mcp) | Proof-of-concept MCP server for India Stack services | JavaScript | 0 |
+
+### Government Organization MCP Usage
+
+**MOSIP (Modular Open Source Identity Platform)** - A critical digital public infrastructure project backed by the Indian government is exploring MCP for documentation automation in their [documentation repository](https://github.com/mosip/documentation). They are planning to use MCP for:
+- Automated release notes generation
+- Documentation structure validation  
+- Cross-reference management
+- Feature extraction from code
+
+> **Note**: For detailed findings from our comprehensive scan of Indian government organizations and their MCP usage, see [Scan Results](./scan-results.md).
 
 ### Potential Development Areas
 
