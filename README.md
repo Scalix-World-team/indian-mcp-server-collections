@@ -77,7 +77,7 @@ Indian-built cloud and developer platforms exposed over MCP.
 
 | Repository | Description | Language | Stars |
 |------------|-------------|----------|-------|
-| [scalix-cloud-mcp](https://github.com/scalixworld/scalix-cloud-mcp) | Cloud platform as MCP: Postgres, containers, functions, object storage, auth, DNS and persistent Linux machines. 55 tools, one API key. Remote Streamable HTTP, nothing to install | - | 2 |
+| [scalix-cloud-mcp](https://github.com/scalixworld/scalix-cloud-mcp) | Cloud platform as MCP: Postgres, containers, functions, object storage, auth, DNS and persistent Linux machines. 50 tools, one API key. Remote Streamable HTTP, nothing to install | - | 2 |
 
 ## Getting Started
 
